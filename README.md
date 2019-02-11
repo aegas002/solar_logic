@@ -1,7 +1,7 @@
 # solar_logic
 Logical arduino code for portable solar generator project
 
-Linux:
+<bold>Linux:</bold>
 If you are using linux I suggest downloading this makefile compile for the Arduino:
 https://github.com/rubend056/arduino_make_template 
 
