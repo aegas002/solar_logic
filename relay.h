@@ -4,17 +4,16 @@
 #ifndef RELAY
 #define RELAY
 
-class relay{
-int relay0State, relay1State, relay2State = 0; //state 0 off, state 1 on 
-const int relay0 = 3;
-const int relay1 = 6;
-const int relay2 = 8;
+struct Relay{
 
-void *changeState(int relay, float a);
-int checkState( int relay);
-bool *startState(); 
-bool *maintState();
-bool *overState( int relay); //Sets relays off if overcurrent is detected
-};
+int state = 0; //state LOW (0) off, state ON(1) on 
+int pin; 
 
+void changeState(Relay relay);
+int checkState(Relay relay);
+bool startState(Relay first, int pinFirst, Relay second, int pinSecond, Relay third, int pinThird);
+bool maintState(Relay first, Relay second, Relay third);
+bool overState(Relay relay); //Sets relays off if overcurrent is detected
+//void writeAllState();
+}; 
 #endif
