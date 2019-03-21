@@ -32,5 +32,5 @@ If using custom makefile:
 
 If using Arduino IDE:
   you will need to copy all code in main.cpp into the arduino main file.
-  Also you need to copy the folder lib --> common into your Arduino library folder
+
 
