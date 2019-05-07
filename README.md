@@ -1,5 +1,5 @@
 # solar_logic
-## Logical arduino code for portable solar generator project
+## Logical code for portable solar generator (nano, uno, SAMN board, etc..)
 
 Before starting make sure you have the correct operating system in use. I listed a recommended compliers to use depending on what operating system you are using.
 
